@@ -1,0 +1,70 @@
+img{
+    /* display: flex;  */
+    width: 100vh; 
+    height: 100%;
+}
+
+.contenedor{
+    width: 100vh;
+    position: relative;
+    height: 780px;
+}
+
+.botones{
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    background-color: 0 0 10px rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    color: #ffff;
+}
+
+.botones:hover{
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+}
+
+.anterior{
+    left: 2%;
+    top: calc(50% - 70px);
+}
+
+.siguiente{
+    right: 2%;
+    top: calc(50% - 70px);
+}
+
+/* Botonera */
+.botonera{
+    width: 100vh;
+    height: 150px;
+    background-color: lightgrey;
+    opacity: 0.5;
+    position: relative;
+    margin-top: -165px;
+    /* left: 25%; */
+    /* display: flex; */
+}
+
+.listaBotones li{
+    display: inline;
+    left: 25%;
+}
+
+.listaBotones-boton{
+    height:80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 40px 40px 40px 40px;
+    margin: 20px 5px 5px 5px;
+}
+
+.listaBotones-boton:hover{
+    border-color: red;
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+}
